@@ -45,7 +45,14 @@ ipfs.pinFileToIPFS(fd).then(res => {
 })
 
 var nft = new mintMagiNft.Nft({
-    apiUrl: 'https://rpc-mumbai.maticvigil.com'
+    networkName: 'mumbai',
+    // rpcUrl: 'https://rpc-mumbai.maticvigil.com',
+});
+
+or
+
+var nft = new mintMagiNft.Nft({
+    networkName: 'cronos-testnet',
 });
 
 nft.mint("yourAddress", "yourTokenURI", "yourPrivateKey").then(res => {
