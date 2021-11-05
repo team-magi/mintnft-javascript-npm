@@ -1,4 +1,4 @@
-# mint-magi-nft
+# mint-nft
 
 ## Pinata
 
@@ -9,19 +9,19 @@ ipfs [Pinata](https://pinata.cloud)
 Using npm:
 
 ```bash
-$ npm install mint-magi-nft
+$ npm install mint-nft
 ```
 
 Using yarn:
 
 ```bash
-$ yarn add mint-magi-nft
+$ yarn add mint-nft
 ```
 
 ## Example
 
 ```js
-var mintMagiNft = require('mint-magi-nft');
+var mintMagiNft = require('mint-nft');
 const fs = require('fs');
 const FormData = require('form-data');
 

@@ -1,6 +1,6 @@
 {
-  "name": "mint-magi-nft",
-  "version": "1.0.4",
+  "name": "mint-nft",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
