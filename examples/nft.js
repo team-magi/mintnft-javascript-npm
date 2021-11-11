@@ -1,6 +1,6 @@
-var mintMagiNft = require('../lib');
+var npmMintNft = require('../lib');
 
-var nft = new mintMagiNft.Nft({
+var nft = new npmMintNft.Nft({
     networkName: 'cronos-testnet',
     // rpcUrl: 'https://rpc-mumbai.maticvigil.com',
 });

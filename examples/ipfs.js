@@ -1,8 +1,8 @@
-var mintMagiNft = require('../lib');
+var npmMintNft = require('../lib');
 const fs = require('fs');
 const FormData = require('form-data');
 
-var ipfs = new mintMagiNft.Ipfs({
+var ipfs = new npmMintNft.Ipfs({
     pinKey: '1',
     pinSecret: '1',
 });
