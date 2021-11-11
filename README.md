@@ -1,5 +1,11 @@
 # mint-nft npm package
 
+Use our npm package by downloading from npm registry:
+https://www.npmjs.com/package/mint-nft
+
+For how-to, check out the Wiki page:
+https://nifty-3.gitbook.io/mint-nft-npm/getting-started
+
 ## IPFS
 
 Use 3rd party Pinata platform to manage IPFS, please register [Pinata](https://pinata.cloud) first. 
@@ -17,10 +23,6 @@ Using yarn:
 ```bash
 $ yarn add mint-nft
 ```
-
-## Wiki
-
-For more details, check out https://nifty-3.gitbook.io/mint-nft-npm/getting-started
 
 ## Code example 
 
