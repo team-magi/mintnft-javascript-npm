@@ -1,10 +1,10 @@
-# mint-nft npm package
+# nifty-toolkit npm package
 
 Use our npm package by downloading from npm registry:
 https://www.npmjs.com/package/mint-nft
 
 For how-to, check out the Wiki page:
-https://nifty-3.gitbook.io/mint-nft-npm/getting-started
+https://nifty-3.gitbook.io/nifty-toolkit-npm/getting-started
 
 ## IPFS
 
@@ -15,19 +15,19 @@ Use 3rd party Pinata platform to manage IPFS, please register [Pinata](https://p
 Using npm:
 
 ```bash
-$ npm install mint-nft
+$ npm install nifty-toolkit
 ```
 
 Using yarn:
 
 ```bash
-$ yarn add mint-nft
+$ yarn add nifty-toolkit
 ```
 
 ## Code example 
 
 ```js
-var mintMagiNft = require('mint-nft');
+var mintMagiNft = require('nifty-toolkit');
 const fs = require('fs');
 const FormData = require('form-data');
 
