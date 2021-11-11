@@ -5,6 +5,6 @@ var nft = new npmMintNft.Nft({
     // rpcUrl: 'https://rpc-mumbai.maticvigil.com',
 });
 
-nft.mint("1", "test", "1").then(res => {
+nft.mint("recipient_address", "ipfs_hash", "account_private_key").then(res => {
     console.log(res);
 });

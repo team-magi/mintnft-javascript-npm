@@ -3,8 +3,8 @@ const fs = require('fs');
 const FormData = require('form-data');
 
 var ipfs = new npmMintNft.Ipfs({
-    pinKey: '1',
-    pinSecret: '1',
+    pinKey: 'fill_in_your_pinata_key',
+    pinSecret: 'fill_in_your_pinata_secret',
 });
 
 ipfs.pinJSONToIPFS({
